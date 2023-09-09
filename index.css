@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;   
+}
+img{
+    height: 60px;
+    width: 180px;
+    margin-left: 40px;
+    margin-top: 15px;
+    align-items:center;
+}
+.navbar{
+    display: flex;  
+}
+.b1{
+   padding: 8px;
+  margin-top: 25px;
+  margin-left: 30px;
+  color: #5a7184;
+  font-size: 16px;
+  border-style: none;
+  text-decoration: none;
+  text-align: center;
+  width: 200px;
+  background-color: #fdfafa;
+  
+}
+.b1:hover{
+    color: #3d3f40;
+}
+.arrow{
+padding-top: 8px;
+}
+select{
+    border-style: none;
+}
+.b2{
+    padding: 8px;
+    margin-top: 25px;
+    margin-left: 30px;
+    color: #5a7184;
+    font-size: 16px;
+    border-style: none;
+    text-decoration: none;
+    text-align: center;
+    width: 290px;
+    background-color: #fdfafa;
+}
+.b2:hover{
+    color: #3d3f40;
+}
+.b3{
+    border: 2px solid #ff8d1a;
+    margin-top: 25px;
+    margin-left: 30px;
+    padding: 5px;
+    width: 200px;
+    font-weight: 500;
+    font-size: 18px;
+    color:  #fd8d1a;
+    text-align:left;
+    padding-left: 50px;  
+}
+.b4{
+    margin-top: 25px;
+    margin-left: 30px;
+    padding: 15px;
+    width: 200px;
+    border-style: none;
+    font-size: 16px;
+    background-color: #fd8d1a;
+    color: white;
+    font-weight: bolder;
+    animation: f 60s linear  reverse;
+    background: linear-gradient(121.19deg,rgba(133,239,49,0) 25.73%,hsla(0,0%,100%,.3) 45.27%,rgba(133,239,49,0) 62.27%),#ff8d1a;    
+}
+.d1{
+    width: 80%;
+    height: 5px;
+}
+h6{
+    margin-left: 850px;
+    color:#fd8d1a;
+    margin-top: 5px;
+}
+.i2{
+    width: 60%;
+     height: auto;
+      float: right;
+       margin-top: 150px;    
+}
+h1{
+    color: #191919;
+    font-size: 48px;
+    margin-top: 30px;
+    margin-left: 40px;   
+}
+.box{
+    border: 1px solid transparent;
+    box-shadow: 2px 1px 7px ;
+    height: 350px;
+    width: 430px;
+    margin-left: 50px;
+    margin-top: 200px;
+    text-align: center;   
+}
+table,tr,td{
+    border: 1px ridge black;
+    border-collapse: collapse;
+    padding: 11px;
+    color: #959ead;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-color: #959ead;  
+}
+td:hover{
+    background-color: #fd8d1a;
+}
+
+span{
+    font-weight: bolder;
+    color: #5a7184;
+}
+#b5{
+    padding: 15px;
+    margin-top: 5px;
+    width: 90%;
+    background-color: #fd8d1a;
+    border-style: none;
+    color: #fdfafa;
+    font-weight: bolder;
+    animation: f 60s linear  reverse;
+    background: linear-grad ient(121.19deg,rgba(133,239,49,0) 25.73%,hsla(0,0%,100%,.3) 45.27%,rgba(133,239,49,0) 62.27%),#ff8d1a;
+   
+}
+.i4{
+    height: 350px;
+    width: 40%;
+    margin: 0;
+    margin-left: 50px;
+    float: left;
+}
+.b5{
+    float: left;
+    padding: 16px;
+    border-style: none;
+    background-color: #fd8d1a;
+    animation: f 60s linear  reverse;
+    background: linear-gradient(121.19deg,rgba(133,239,49,0) 25.73%,hsla(0,0%,100%,.3) 45.27%,rgba(133,239,49,0) 62.27%),#ff8d1a;
+  margin-right: 270px;
+  margin-left: 80px;
+  margin-top: 40px;
+  width: 20%;
+  color: #fdfafa;
+font-weight: bolder;
+text-align: ;
+}
+.box2{
+    height:450px
+}
+.box3{
+    
+   height: 600px;
+    background-image:url(/iamge/png2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#h1{
+    
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #9b8aee;
+    padding-top: 50px;
+}
+.cart{
+    border: 1px solid black;
+    height: 430px;
+    width: 25%;
+    margin-left: 10px;
+    background-color: #fdfafa;
+    border-radius: 15px;
+    
+    display: inline-block;
+    white-space: nowrap;
+    
+}
+#img{
+height:170px;
+}
+#label{
+    font-size: 20px;
+    padding-right: 35px;
+    }
+    
+    #cb{
+        text-align: center;
+        margin-left: 60px;
+        border: 1px solid black;
+        background-color: #fd8d1a;
+        padding: 5px;
+        margin-top: 10px;
+        width: 200px;
+    }
+    
+    .section4{
+        margin-top: 40px;
+        width: 100%;
+        height: 600px;
+        background-image:url(/iamge/png2.png);
+        background-size: cover;
+       
+    }
+    .section41{
+        margin-top: 40px;
+        padding-top: 10px;
+        color: #5843be;
+        font-size: 40px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .groupsection{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .section42{
+        width: 350px;
+        height: 400px;
+        margin-left: 30px;
+        border: 2px solid white;
+        border-radius: 8px;
+        background-color:rgb(255, 255, 255);
+       
+    }
+    .section421 img{
+        margin-top: 50px;
+        width: 150px;
+        height: 150px;
+    
+    }
+    .section422 a{
+        color: black;
+        text-align:center;
+    }
+    .section234{
+        margin-left: 50px;
+        background-color: #fd8d1a;
+        padding: 10px;
+        color: #fdfafa;
+        font-weight: bolder;
+       
+    }
+    .section424{
+        margin-right: 0px;
+        border-radius: 30px;
+        padding: 10px;
+    }
+    .section425{
+        margin-right: 50px;
+    }
+    .math{
+        width: 100%;
+        height: 250px;
+        background-image: url("https://s3-cdnwhjr.whjr.online/website/desktop/minecraft-banner-desktop.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 100px;
+    }
+    .b6{
+        margin-top: 150px;
+        margin-left: 490px;
+        background-color: #fd8d1a;
+        padding: 16px;
+        width: 20%;
+        color: #fdfafa;
+        font-weight: bolder;
+    }
+    
+    
+    .cap1,h2{
+        color: #191919;
+        font-family: sans-serif;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .gallery{
+        margin:30px;
+        border: 1px solid white;
+        float: left;
+        box-shadow: 0 10px 10px 0;
+        height: 350px;
+        width: 250px;
+    }
+    .desc{
+        padding: 5px;
+        text-align: center;
+        margin-left: 10px;
+        
+    }
+    .c1{
+        padding: 12px;
+        width: 25%;
+        margin-left: 500px;
+        background-color: #fd8d1a;
+        color: #fdfafa;
+        border: 1px solid #fd8d1a;
+        margin-top: 50px;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    .flex{
+        height: 300px;
+        width: 90%;
+        margin-left: 70px;
+        margin-right: 50px; 
+        margin-top: 30px;
+        background-color: #fbfafa;
+        color: #191919;
+    }
+    .flex img{
+        height: 100px;
+        margin-top: 50px;
+    }
+  
+   
